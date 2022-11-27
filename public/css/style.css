@@ -1,0 +1,104 @@
+*{
+	font-size: 15px;
+}
+body, html {
+	height: 100%;
+}
+.bg-login-page {
+	background-image: linear-gradient(to bottom right, deeppink , rgb(238, 0, 255));
+	width: 100vw;
+	height: 100vh;
+    position: relative;
+}
+.login-form{
+	background-color: white;
+	width: 50%;
+	min-width: 390px;
+	height: 70%;
+	max-height: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	border-radius: 10px;
+}
+.image-login{
+	width: 45%;
+	height: 100%;
+	float: left;
+	border-radius: 10px;
+}
+.image-login img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+/* Sign In */
+.sign-in{
+	width: 55%;
+	height: 100%;
+	float: left;
+}
+.sign-in .sign-in-title{
+	width: 100%;
+	height: 10%;
+}
+.sign-in .sign-in-title h3{
+	text-align: center;
+	margin-top: 75px;
+	color: deeppink;
+}
+.sign-in-form{
+	width: 100%;
+	height: 100%;
+	margin-top: 75px;
+}
+.sign-in .ip-email{
+	width: 90%;
+	margin: auto;
+}
+
+.sign-in .ip-password{
+	width: 90%;
+	margin: auto;
+}
+.remember-me{
+	width: 90%;
+	height: 5%;
+	margin: auto;
+}
+.btn-sign-in{
+	width: 90%;
+	height: 10%;
+	margin: auto;
+}
+.c5 { filter: hue-rotate(120deg) }
+input[type=checkbox] {
+	transform: scale(1);
+	cursor: pointer;
+  }
+.btn-sign-in button{
+	margin-top: 25px;
+	width: 100%;
+	color: white;
+	background-image: linear-gradient(to bottom right, deeppink , rgb(238, 0, 255));
+}
+
+/* Footer */
+.footer {
+	width: 100%;
+	height: 5%;
+	position: absolute;
+	bottom: 0;
+}
+.footer-title{
+	text-align: center;
+}
+.footer-title p{
+	color: white;
+}
+.footer-title p a{
+	text-decoration: none;
+	color: greenyellow;
+}
